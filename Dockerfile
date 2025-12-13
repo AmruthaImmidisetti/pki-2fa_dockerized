@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y cron tzdata && \
 
 # copy wheels & install
 COPY --from=builder /wheels /wheels
-RUN pip install --no-cache-dir /wheels/*
+RUN pip install --no-cache-dir /wheels/*.whl
 
 # copy app code and keys
 COPY app /app
