@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel
 import os
-from .crypto import load_private_key, decrypt_seed
-from .totp_utils import generate_totp_code, verify_totp_code
+from crypto import load_private_key, decrypt_seed
+from totp_utils import generate_totp_code, verify_totp_code
 
 app = FastAPI()
 DATA_PATH = "/data/seed.txt"
