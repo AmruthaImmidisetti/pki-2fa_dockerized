@@ -138,7 +138,7 @@ To build a production-ready authentication microservice that:
   "error": "Seed not decrypted yet"
 }
 
-## ⏱️ TOTP Configuration
+##  TOTP Configuration
 
 | Parameter      | Value           |
 |---------------|-----------------|
@@ -148,7 +148,7 @@ To build a production-ready authentication microservice that:
 | Seed Format   | Hex → Base32    |
 | Verification  | ±1 time window  |
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Build the Container
 
@@ -172,7 +172,7 @@ Once the container is running, the API service will be available at:
 
 http://localhost:8080
 
-## 💾 Persistent Storage
+##  Persistent Storage
 
 | Path                 | Purpose                     |
 |----------------------|-----------------------------|
@@ -181,7 +181,7 @@ http://localhost:8080
 
 The data stored in these paths persists across container restarts using Docker named volumes.
 
-## ⏰ Cron Job
+##  Cron Job
 
 - Runs automatically every minute
 - Generates the current TOTP (2FA) code
@@ -234,6 +234,6 @@ The data stored in these paths persists across container restarts using Docker n
 
 ---
 
-## ✅ Outcome
+##  Outcome
 
 This project delivers a secure authentication microservice that combines cryptography, containerization, automation, and REST API design, closely reflecting real-world production security workflows.
