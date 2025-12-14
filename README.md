@@ -44,24 +44,24 @@ To build a production-ready authentication microservice that:
 
 ##  Project Structure
 
- pki-2fa/
- ├── app/
- │ ├── main.py
- │ ├── crypto.py
- │ ├── totp_utils.py
- │ └── scripts/
- │ └── log_2fa_cron.py
- ├── cron/
- │ └── 2fa-cron
- ├── student_private.pem
- ├── student_public.pem
- ├── instructor_public.pem
- ├── Dockerfile
- ├── docker-compose.yml
- ├── requirements.txt
- ├── .gitattributes
- ├── .gitignore
- └── README.md
+- pki-2fa/
+- ├── app/
+- │ ├── main.py
+- │ ├── crypto.py
+- │ ├── totp_utils.py
+- │ └── scripts/
+- │ └── log_2fa_cron.py
+- ├── cron/
+- │ └── 2fa-cron
+- ├── student_private.pem
+- ├── student_public.pem
+- ├── instructor_public.pem
+- ├── Dockerfile
+- ├── docker-compose.yml
+- ├── requirements.txt
+- ├── .gitattributes
+- ├── .gitignore
+- └── README.md
 
 ## 🔌 API Endpoints
 
